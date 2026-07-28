@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - ENTRE AMIGO TIENDA DE MASCOTAS</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="img/logo.png" alt="Entre amigo">
+                <h1>ENTRE AMIGO TIENDA DE MASCOTAS</h1>
+            </div>
+
+            <nav>
+                <ul>
+                    
+                    <li><a href="inicio.html">Inicio</a></li>
+                    <li><a href="products.html" class="active">Productos</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="cart.html">🛒 Carrito</a></li>
+                </ul> 
+            </nav> 
+        </div>
+    </header>
+
+    <main>
+       
+        <section class="banner" id="inicio">
+           <div class="container">
+              <div class="banner-text">
+                  <img src="img/banner.png" alt="banner">
+                  <h2>VISTE TU MEJOR AMIGO CON ESTILO Y CARIÑO</h2>
+                    <p>Encuentra ropa y accesorios de calidad para tu mascota.</p>
+              </div>
+          </div>
+       </section>
+       
+        <section class="page-header">
+            <div class="container">
+                <h1>Nuestra Tienda de Ropa y Accesorios de Mascotas</h1>
+                <p>Explora nuestra amplia gama de ropa y accesorios para tu mascota a tu estilo</p>
+            </div>
+        </section>
+
+        <section class="products-section">
+            <div class="container">
+                <div class="filter-bar">
+                    <select id="categoryFilter">
+                        <option value="all">Todas las categorías</option>
+                        <option value="Ropa">Ropa</option>
+                        <option value="accesorios">Accesorios</option>
+                    </select>
+                </div>
+
+                <div class="products-grid">
+                    <div class="product-card" data-category="Ropa">
+                        <img src="img/Products/busop1.jpeg" alt="Buso de lana con estampado">
+                        <h3>BUSO DE LANA CON ESTAMPADO</h3>
+                        <p class="description">Confeccionada en lana suave, ligera y transpirable, ideal para no irritar la piel ni limitar sus movimientos.</p>
+                        <p class="price">$18.99</p>
+                        <button class="btn add-to-cart">🛒 Agregar al Carrito</button>
+                    </div>
+
+                    <div class="product-card" data-category="Ropa">
+                        <img src="img/Products/oberolp2.jpg" alt="Overol de lana bordado">
+                        <h3>OVEROL DE LANA</h3>
+                        <p class="description">Overol tejido de algodón, ideal para días fríos.</p>
+                        <p class="price">$21.99</p>
+                        <button class="btn add-to-cart">🛒 Agregar al Carrito</button>
+                    </div>
+
+                    <div class="product-card" data-category="Ropa">
+                        <img src="img/Products/smoquip3.jpg" alt="Smoqui para perro">
+                        <h3>SMOQUIN BLANCO Y NEGRO</h3>
+                        <p class="description">Diseño elegante y cómodo, perfecto para ocasiones especiales.</p>
+                        <p class="price">$21.99</p>
+                        <button class="btn add-to-cart">🛒 Agregar al Carrito</button>
+                    </div>
+
+                    <div class="product-card" data-category="Ropa">
+                        <img src="img/Products/vestidoflorp4.jpg" alt="Vestido para perro">
+                        <h3>VESTIDO DE FLORES</h3>
+                        <p class="description">Diseño especial para perritas, con detalles elegantes.</p>
+                        <p class="price">$21.99</p>
+                        <button class="btn add-to-cart">🛒 Agregar al Carrito</button>
+                    </div>
+
+                    <div class="product-card" data-category="accesorios">
+                        <img src="img/Products/almuag.jpg" alt="Almohada para perro">
+                        <h3>ALMOHADA</h3>
+                        <p class="description">Material seguro y duradero, todo lo necesario en un solo lugar con bordes redondos y elevados afelpados.</p>
+                        <p class="price">$19.99</p>
+                        <button class="btn add-to-cart">🛒 Agregar al Carrito</button>
+                    </div>
+
+                    <div class="product-card" data-category="accesorios">
+                        <img src="img/Products/cadenaazul.jpg" alt="Cadena para perro">
+                        <h3>CADENA</h3>
+                        <p class="description">Material seguro no tóxico, resistente, diseño práctico y cómodo.</p>
+                        <p class="price">$19.99</p>
+                        <button class="btn add-to-cart">🛒 Agregar al Carrito</button>
+                    </div>
+                    
+                    <div class="product-card" data-category="accesorios">
+                        <img src="img/Products/casaybandeja.jpeg" alt="Casa y bandeja para perro">
+                        <h3>CASA Y BANDEJA PARA COMER</h3>
+                        <p class="description">Tela suave y resistente, ideal para el descanso de tu compañero canino.</p>
+                        <p class="price">$23.99</p>
+                        <button class="btn add-to-cart">🛒 Agregar al Carrito</button>
+                    </div>
+
+                   <div class="product-card" data-category="accesorios">
+                        <img src="img/Products/cepilloycadena.jpg" alt="Cepillo y cadena para perro">
+                        <h3>CEPILLO Y CADENA</h3>
+                        <p class="description">Cepillo de calidad, ideal para mantener el pelaje de tu perro en perfecto estado.</p>
+                        <p class="price">$19.99</p>
+                        <button class="btn add-to-cart">🛒 Agregar al Carrito</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ENTRE AMIGO TIENDA DE MASCOTAS</h3>
+                    <p>Tu tienda de productos para mascotas de confianza</p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Enlaces</h3>
+                    <ul>
+                        <li><a href="terminos.html">Términos y Condiciones</a></li>
+                        <li><a href="privacidad.html">Privacidad</a></li>
+                        <li><a href="ayuda.html">Ayuda</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Contacto</h3>
+                    <p>Email: genesisparra1992@hotmail.com</p>
+                    <p>Tel: 593 959 888 066</p>
+                    <p>Dirección: Calle Jaime Roldos y Ruperto Congrains - Palenque - Los Rios - Ecuador</p>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 ENTRE AMIGO TIENDA DE MASCOTAS. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
